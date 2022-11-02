@@ -7,7 +7,7 @@ const cart = JSON.parse(localStorage.getItem("cart"));
 
 const confirmationId = document.querySelector("#orderId");
 
-const backBtn = `<button id="retourAccueil"><a href="./index.html">Retour à l'accueil</a></button>`;
+const backBtn = `<button id="backBtn"><a href="./index.html">Retour à l'accueil</a></button>`;
 
 // Display of the orderId in the DOM
 (function() {

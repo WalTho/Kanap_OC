@@ -63,8 +63,8 @@ async function displayCart() {
     document.getElementById("totalPrice").innerHTML = totalPrice;
 
     if (i == cart.length) {
-        const displayBasket = parser.parseFromString(cartArray, "text/html");
-        positionEmptyCart.appendChild(displayBasket.body);
+        const showShoppingCart = parser.parseFromString(cartArray, "text/html");
+        positionEmptyCart.appendChild(showShoppingCart.body);
         changeQuantity();
         deleteItem();
     }
